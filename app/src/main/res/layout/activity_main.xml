@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="50dp"
+        android:fontFamily="@font/poppins_medium"
+        android:gravity="center"
+        android:text="Login"
+        android:textColor="@color/text"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="230dp"
+        android:background="@drawable/outline"/>
+
+    <EditText
+        android:id="@+id/Username"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="235dp"
+        android:layout_marginRight="40dp"
+        android:backgroundTint="@android:color/transparent"
+        android:fontFamily="@font/poppins_light"
+        android:hint="Username"
+        android:paddingLeft="30dp"
+        android:textColorHint="@color/string"
+        android:textSize="20dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="320dp"
+        android:background="@drawable/outline"/>
+
+    <EditText
+        android:id="@+id/Password"
+        android:backgroundTint="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="325dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:paddingLeft="30dp"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:textSize="20dp"
+        android:textColorHint="@color/string"
+        android:fontFamily="@font/poppins_light"/>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Remember me"
+        android:textSize="14dp"
+        android:textColor="@color/text"
+        android:fontFamily="@font/poppins"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Forget Password ?"
+        android:textSize="14dp"
+        android:textColor="@color/text1"
+        android:fontFamily="@font/poppins"
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:gravity="right"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Login"
+        android:textColor="@color/white"
+        android:fontFamily="@font/poppins_medium"
+        android:textSize="18dp"
+        android:layout_marginTop="570dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:background="@drawable/button"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="50dp"
+        android:fontFamily="@font/poppins"
+        android:paddingLeft="55dp"
+        android:text="New Member ?"
+        android:textColor="@color/text"
+        android:textSize="17dp" />
+
+    <TextView
+        android:id="@+id/register1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:textColor="@color/text1"
+        android:fontFamily="@font/poppins"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:paddingRight="55dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="right"
+        android:layout_marginBottom="50dp"/>
+
+</RelativeLayout>
